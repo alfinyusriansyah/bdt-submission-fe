@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!----------------------- header -------------------------->
+    <header class="header">
+        <!-- Judul -->
+        <h2>Yus<span>Trans</span></h2>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#main">Service</a>
+            <a href="#pleace">Pleace</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <nav class="nav-2">
+            <a href="#" id="add-nav">|||</a>
+        </nav>
+    </header>
+
+    <!------------------ Main ------------------------->
+    <main>
+        <!-- Home Article  -->
+        <article class="home" id="home">
+            <div class="content-home">
+                <h1>Hello, It's time to Holiday</h1>
+                <h3>Let's enjoyd Our  <span>Service</span></h3>
+                <h2>Come here in <span>YusTrans</span></h2>
+                <a href="" class="cta">Read more</a>
+            </div>
+        </article>
+    
+    
+        <!-- About Articel -->
+        <article class="about" id="about">
+            <div class="image-about">
+                <img src="img\bus.jpg" alt="">
+            </div>
+            <div class="desc-about">
+                <h1>About <span>YusTrans</span></h1>
+                <hr>
+                <p>YusTrans adalah perusahaan yang bergerak dibidang aktivitas penyewaan angkutan darat wisata dengan berbagai pilihan armada untuk area Pulau jawa. Kami selalu berusaha memberikan pelayanan terbaik agar dapat menjadi teman perjalanan yang memberikan keamanan dan kenyamanan untuk para pelanggan kami.</p>
+            </div>
+        </article>
+    
+        <!-- Class Article-->
+        <article class="main" id="main">
+            <h1>Best<span> Class</span></h1>
+            <hr>
+            <div class="content-container" >
+                <section class="content">
+                    <div class="img-content">
+                        <img src="img\eksekutif.jpg" alt="">
+                    </div>
+                    <h2>Executive Class</h2>
+                        <p>Memilik kursi yang lebih lebar dan nyaman, penawaran makanan dan minuman yang lebih baik, layar hiburan pribadi, ruang kaki yang lebih luas, dan layanan pemandu wisata</p>
+                    <a href="">Read More</a>
+                </section>
+                <section class="content">
+                    <div class="img-content">
+                        <img src="img\bisnis.jpg" alt="">
+                    </div>
+                    <h2>Business Class</h2>
+                    <p>Memilik kursi yang lebih nyaman dengan ruang kaki yang cukup, makanan dan minuman ringan, dan fasilitas seperti Wi-Fi gratis dan stop kontak untuk pengisian daya perangkat elektronik</p>
+                    <a href="">Read More</a>
+                </section>
+                <section class="content">
+                    <div class="img-content">
+                        <img src="img\ekonomi.jpg" alt="">
+                    </div>
+                    <h2>Economic Class</h2>
+                    <p>kelas yang paling umum dan terjangkau dalam layanan perjalanan bus</p>
+                    <a href="">Read More</a>
+                </section>
+            </div>
+        </article>
+        
+        <!-- Pleace Article -->
+        <article class="pleace" id="pleace">
+            <h1>Best<span> Pleace</span></h1>
+            <hr>
+            <div class="pleace-container">
+                <div class="pleace-box">
+                    <img src="img\mountain.jpg" alt="">
+                    <div class="pleace-layer">
+                        <h4>Malang, Bogor</h4>
+                        <a href="https://alfinyus001.medium.com/klasifikasi-menggunakan-svm-support-vector-machine-di-python-pada-study-kasus-orange-vs-7a6e81f04515" class="btn" target="_blank">Read more</a>
+                    </div>
+                </div>
+                <div class="pleace-box">
+                    <img src="img\beach.jpg" alt="">
+                    <div class="pleace-layer">
+                        <h4>Banyuwangi</h4>
+                        <a href="https://alfinyusriansyah.github.io/kedaikopiku.github.io/" class="btn" target="_blank">Read more</a>
+                    </div>
+                </div>
+                <div class="pleace-box">
+                    <img src="img\waterfall.jpg" alt="">
+                    <div class="pleace-layer">
+                        <h4>Solo</h4>
+                        <a href="https://alfinyusriansyah.github.io/kedaikopiku.github.io/" class="btn" target="_blank">Read more</a>
+                    </div>
+                </div>
+                <div class="pleace-box">
+                    <img src="img\urban.jpg" alt="">
+                    <div class="pleace-layer">
+                        <h4>Jakarta, Jogja</h4>
+                        <a href="https://alfinyusriansyah.github.io/kedaikopiku.github.io/" class="btn" target="_blank">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    
+        <!-- Contact Article -->
+        <div class="contact" id="contact">
+            <article>
+                <h1>Contact<span> Us</span></h1>
+                <hr>
+                <div class="contact-container">
+                    <div class="form-contact">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="No. Hanphone">
+                        <textarea name="" id="" cols="50" rows="10" placeholder="Message"></textarea>
+                        <a href="#" class="btn">Send Massage</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    
+    
+        <aside id="slider" class="action" onclick="actionToggle();">
+            <a>+</a>
+            <div class="aside-profile">
+                <div class="foto-profile">
+                </div>
+                <h2>Alfin Yusriansyah</h2>
+                <p>Genteng, Banyuwangi</p>
+                <p>06 Juli 1999</p>
+                <p>Fresh Graduate</p>
+                <p>Software Engineering</p>
+            </div>
+        </aside>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>create by <a href="#">AlfinYus</a>
+                |&copy; 2023 | All Rights Reserverd</p>
+        </div>
+    </footer>
+
+
+    <script src="javascripts.js"></script>
+</body>
+</html>
