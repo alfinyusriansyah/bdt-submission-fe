@@ -5,7 +5,7 @@ Baparekraf Digital Talent (BDT) 2023 : Final Exam make a Website with
 ## Home
 ![logo](result/home.png "Home")
 ## About
-![logo](result/contact.png "About")
+![logo](result/about.png "About")
 ## Service
 ![logo](result/service.png "Service")
 ## Pleace
